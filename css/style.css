@@ -1,0 +1,94 @@
+.jumbotron {
+  background-color: #FBFAF9; }
+
+.navbar {
+  background-color: #FBFAF9; }
+  .navbar .navbar-brand {
+    color: #070d0f; }
+    .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+      color: #fd7f1b; }
+  .navbar .navbar-text {
+    color: #070d0f; }
+    .navbar .navbar-text a {
+      color: #fd7f1b; }
+      .navbar .navbar-text a:hover, .navbar .navbar-text a:focus {
+        color: #fd7f1b; }
+  .navbar .navbar-nav {
+    margin: auto; }
+    .navbar .navbar-nav .nav-link {
+      color: #070d0f;
+      border-radius: .25rem;
+      margin: 0 0.25em; }
+      .navbar .navbar-nav .nav-link:not(.disabled):hover, .navbar .navbar-nav .nav-link:not(.disabled):focus {
+        color: #fd7f1b; }
+    .navbar .navbar-nav .dropdown-menu {
+      background-color: #FBFAF9;
+      border-color: #FBFAF9; }
+      .navbar .navbar-nav .dropdown-menu .dropdown-item {
+        color: #070d0f; }
+        .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+          color: #fd7f1b;
+          background-color: #FBFAF9; }
+      .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+        border-top-color: #FBFAF9; }
+    .navbar .navbar-nav .nav-item.active .nav-link, .navbar .navbar-nav .nav-item.active .nav-link:hover, .navbar .navbar-nav .nav-item.active .nav-link:focus, .navbar .navbar-nav .nav-item.show .nav-link, .navbar .navbar-nav .nav-item.show .nav-link:hover, .navbar .navbar-nav .nav-item.show .nav-link:focus {
+      color: #fd7f1b;
+      background-color: #FBFAF9; }
+  .navbar .navbar-toggle {
+    border-color: #FBFAF9; }
+    .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+      background-color: #FBFAF9; }
+    .navbar .navbar-toggle .navbar-toggler-icon {
+      color: #070d0f; }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #070d0f; }
+  .navbar .navbar-link {
+    color: #070d0f; }
+    .navbar .navbar-link:hover {
+      color: #fd7f1b; }
+
+@media (max-width: 575px) {
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #070d0f; }
+    .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #fd7f1b; }
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fd7f1b;
+    background-color: #FBFAF9; } }
+
+@media (max-width: 767px) {
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #070d0f; }
+    .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #fd7f1b; }
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fd7f1b;
+    background-color: #FBFAF9; } }
+
+@media (max-width: 991px) {
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #070d0f; }
+    .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #fd7f1b; }
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fd7f1b;
+    background-color: #FBFAF9; } }
+
+@media (max-width: 1199px) {
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #070d0f; }
+    .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #fd7f1b; }
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fd7f1b;
+    background-color: #FBFAF9; } }
+
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #070d0f; }
+  .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fd7f1b; }
+
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #fd7f1b;
+  background-color: #FBFAF9; }
